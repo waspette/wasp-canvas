@@ -30,4 +30,6 @@ A cheat sheet for available git commands and help can be found <a href="https://
 
 <h4>Happy coding!</h4>
 
-July 9th session target: Minimum requirements to participate, Text editors, Object Oriented Programming, Version Control, canvas and sprite development
+July 9th session deliveables: Minimum requirements to participate, Text editors, Object Oriented Programming, Version Control, canvas and sprite development: DONE 
+
+July 15th session deliverables: Moving characters with event listeners and Attack function
