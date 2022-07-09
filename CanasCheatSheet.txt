@@ -1,0 +1,35 @@
+At close, you should have a functioning HTML document with the canvas window, with a few (game assets) functioning sprites 
+What we're covering:
+
+
+
+A basic text editor:
+I would use options such as Notepad++, Visual Studio Code, Brackets IDE
+
+Basically highlights important keywords that are meaningful for code and keeps it neat according to language!
+
+What is relative and absolute pathing
+
+
+
+what is source control?
+
+
+crucial commands: set upstream branch, which is the name of the branch on the server that represents your local branch. 
+
+git config --global user.name “[firstname lastname]”
+set a name that is identifiable for credit when review version history
+
+
+git config --global user.email “[valid-email]”
+set an email address that will be associated with each history marker
+
+
+git clone https://github.com/beckywgoodflair/wasp-canvas <= get copy of repository
+
+Make VS handle merge conflicts: 
+git config --global core.editor "code -w"
+
+Add a remote repository: 
+git remote add WaspTwitch https://github.com/beckywgoodflair/wasp-canvas
+
