@@ -5,12 +5,22 @@ const gameContext = canvas.getContext('2d');
 canvas.width = 1024;
 canvas.height = 576;
 
-gameContext.fillRect(0, 0, canvas.width, canvas.height);
+gameContext.fillRect(250, 0, canvas.width, canvas.height);
 
 
-function OnClickBaby(msg) {
+
+function OnClickBaby(textToAppend) {
    
-    var pTag = document.querySelector('p');
+    const pTag = document.querySelector('p');
 
-    pTag.append(msg);
+    pTag.append(textToAppend);
+
+    linebreak = document.createElement("br");
+    pTag.appendChild(linebreak);
+}
+
+function OnClickClear() {
+
+    const pTag = document.querySelector('p');
+    pTag.innerHTML = ""; 
 }
