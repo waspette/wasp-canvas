@@ -21,9 +21,12 @@ In order to participate in pulling this workspace down and uploading your change
 
  Git works similarly to the command line and will provide us with the toolkit necessary to version our files for safety and for sharing with others! The default configurations are acceptable and what I have, and the only change I made was selecting Visual Studio Code as my GUI!
 
-If you're feeling extra saucy, follow along the guide here which covers the barebone basics of version control using git: https://git-scm.com/docs/gittutorial
+If you're feeling extra saucy, follow this guide,  which covers the barebone basics of version control using git: https://git-scm.com/docs/gittutorial
 
 <i>Don't worry about the "$ tar xzf project.tar.gz" line, simply use the <b>cd</b> command to change to a directory, and git init to begin tracking all files (and folders WITH files in them) at the directory. </i>
+
+A cheat sheet for available git commands and help can be found <a href="https://education.github.com/git-cheat-sheet-education.pdf">here</a>:
+
 
 <h4>Happy coding!</h4>
 
