@@ -1,12 +1,28 @@
 # wasp-canvas
-A repository for the HTML Canvas browser game tutorial led by Waspette on Twitch
-This is a test facility, watch your step!
+A repository for an HTML Canvas browser game tutorial led by Waspette on Twitch, following a tutorial shared on Youtube by the great https://chriscourses.com/courses
 
+<h3>This is a test facility, watch your step!</h3>
+
+
+<h1>
 We officially begin classes Saturday July 9th 2pm EST!
-All class results will be pushed here.
+All class results will be pushed here. </h1>
 
 Feel free to cut your own branch off of Master to develop in parallel! No need to worry about a mistake as you can always get a clean copy from here! That's the beauty of version control babyyyy!!! Instructions on how to do this will be provided during the 1st lesson and left up in a VOD for those unable to make it.
 
-Happy coding!
+<h3>Get a Head Start</h3>
+
+In order to participate in pulling this workspace down and uploading your changes like the big proud developer you are, please install the 64-bit version of gitbash here: https://git-scm.com/downloads
+
+
+ Git works similarly to the command line and will provide us with the toolkit necessary to version our files for safety and for sharing with others! The default configurations are acceptable and what I have, and the only change I made was selecting Visual Studio Code as my GUI!
+
+If you're feeling extra saucy, follow along the guide here which covers the barebone basics of version control using git: https://git-scm.com/docs/gittutorial
+
+<i>Don't worry about the "$ tar xzf project.tar.gz" line, simply use the <b>cd</b> command to change to a directory, and git init to begin tracking all files (and folders WITH files in them) at the directory. </i>
+
+Our text editor of choice is <a href="https://code.visualstudio.com/download">Visual Studio Code</a>, but I would recommend either [Notepad++](https://notepad-plus-plus.org/downloads/v8.4.2/) or [sublime](https://www.sublimetext.com/3) text editors for those weak in the knees. You could even just use the regualar Notepad if you wanted to! The experience will (mostly) be the same, but I would be most pleased if you chose VSC to code along with me!
+
+<h4>Happy coding!</h4>
 
 July 9th session target: Minimum requirements to participate, Text editors, Object Oriented Programming, Version Control, canvas and sprite development
