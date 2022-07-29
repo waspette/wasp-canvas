@@ -10,7 +10,7 @@ All class results will be pushed here. </h1>
 
 Feel free to cut your own branch off of Master to develop in parallel! No need to worry about a mistake as you can always get a clean copy from here! That's the beauty of version control babyyyy!!! Instructions on how to do this will be provided during the 1st lesson and left up in a VOD for those unable to make it.
 
-<h2>Get a Head Start</h3>
+<h2>Get a Head Start</h2>
 
 
 <h3> Text Editor</h2>
@@ -29,6 +29,9 @@ A cheat sheet for available git commands and help can be found <a href="https://
 
 
 <h4>Happy coding!</h4>
+
+<h2>Schedule</h2>
+
 
 July 9th session target: Minimum requirements to participate, Text editors, Object Oriented Programming, Version Control, canvas and sprite development
 
