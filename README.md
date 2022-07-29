@@ -32,4 +32,8 @@ A cheat sheet for available git commands and help can be found <a href="https://
 
 July 9th session target: Minimum requirements to participate, Text editors, Object Oriented Programming, Version Control, canvas and sprite development
 
-July 15th session target: Player movement featuring event listeners
+July 15th session target: Event listeners for movement
+
+July 29th session: Stable player 1 'A' and 'D' key movement (Left and Right)
+
+August 5th: Stable player 1 'W' and 'S' key movement (Jump and Crouch); Start player 2 movement
