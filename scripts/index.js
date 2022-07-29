@@ -4,6 +4,20 @@ canvas.height = 576;
 
 const gameContext = canvas.getContext('2d');
 const gravity = 0.2
+const keys = {
+    
+    a: {
+        pressed: false,
+        value: 'a'
+    },
+    d: {
+        pressed: false,
+        value: 'd'
+    }
+}
+
+let lastKeyPress
+
 gameContext.fillRect(0, 0, canvas.width, canvas.height);
 
 class Sprite { //class used to represent friendly and enemy players
@@ -77,23 +91,36 @@ function animate() { //an infinite loop that is listening frame by frame for ani
 
     hottie.update('purple')
     wraith.update('red')
+
+    hottie.velocity.x = 0;
+    if (keys.a.pressed && lastKeyPress === keys.a.value)
+    {
+        hottie.velocity.x = -1;
+    }
+    else if (keys.d.pressed && lastKeyPress === keys.d.value)
+    {
+        hottie.velocity.x = 1; 
+    }
 }
 
 animate();
+
 window.addEventListener('keydown', (event) => {
 
 switch(event.key)
 {
     case 'w':
-    break
+        break;
     case 'a':  
-        hottie.velocity.x = -1
-    break
+        keys.a.pressed = true
+        lastKeyPress = 'a';
+        break;
     case 's':  
-    break
+        break
     case 'd':  
-        hottie.velocity.x = 1
-    break
+        keys.d.pressed = true
+        lastKeyPress = 'd';
+        break;
     default: break
 }
     console.log(event.key)
@@ -106,12 +133,12 @@ switch(event.key)
         case 'w':
         break
         case 'a':  
-            hottie.velocity.x = 0
+            keys.a.pressed = false
         break
         case 's':  
         break
         case 'd':  
-            hottie.velocity.x = 0
+            keys.d.pressed = false
         break
         default: break
     }
