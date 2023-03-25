@@ -1,5 +1,5 @@
 # wasp-canvas
-A repository for an HTML Canvas browser game tutorial led by Waspette on Twitch, following a tutorial shared on Youtube by the great https://chriscourses.com/courses
+A repository for an HTML Canvas browser game tutorial led by Waspette on Twitch, following a tutorial created on Youtube by the great https://chriscourses.com/courses
 
 <h3>This is a test facility, watch your step!</h3>
 
